@@ -15,3 +15,4 @@ fetch("https://www.prevision-meteo.ch/services/json/bagnolet")
     document.getElementById("humide").innerHTML =
       "<p>" + data.current_condition.humidity + "</p>";
   });
+// `<p>${data.current_condition.humidity}</p>`;
